@@ -50,7 +50,7 @@ data/body_models/mano
    ├── SMPLH_female.pkl
    └── SMPLH_male.pkl
 ```
-You can run the grasping visualization scripts for MANO, Allegro, or Shadow Hand in the [./scripts](./scripts) folder. For example, if you want to visualize a MANO grasping sequence, run
+You can now run the grasping visualization scripts for MANO, Allegro, or Shadow Hand in the [./scripts](./scripts) folder. For example, if you want to visualize a MANO grasping sequence, run
 ```
 $ python ./scripts/visualizer_mano.py
 ```
