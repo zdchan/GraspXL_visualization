@@ -31,6 +31,7 @@ Install the dependencies listed in [environment.yaml](./environment.yaml)
 
 ```
 $ conda env create -f environment.yaml
+$ conda activate graspxl_viewer
 ```
 
 Download MANO pickle data-structures
