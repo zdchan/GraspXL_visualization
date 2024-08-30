@@ -18,26 +18,6 @@ Our dataset contains diverse grasping motions of 500k+ objects from [Objaverse](
     <img src="./docs/robot_hand.gif" alt="Image" width="80%"/>
 </p>
 
-
-### Why use GraspXL?
-
-Summary on the dataset:
-- It contains 10M+ diverse grasping motions for 500k+ objects of different dexterous hands.
-- All the grasping motions are generated with a physics simulation, which makes sure the physical plausibility of the generated motions.
-- Each motion contains accurate object and hand poses of each frame.
-
-Potential tasks with GraspXL:
-- Generating [full-body motion](https://goal.is.tue.mpg.de/) for general objects
-- Achieving zero-shot text-to-motion generation with off-the-shelf [text-to-mesh](https://dreamfusion3d.github.io/) generation methods
-- Generating large scale of pseudo-real 3D RGBD grasping motions with [texture generation](https://mq-zhang1.github.io/HOIDiffusion/) methods
-- [Simulating general human hand motions](https://eth-ait.github.io/synthetic-handovers/) for human-robot interaction
-- Serving as expert demonstrations for robot imitation learning
-
-
-Check out our [project page](https://eth-ait.github.io/graspxl/) for more details.
-
-
-
 ### Getting started
 
 Clone the GraspXL_visualization repository:
