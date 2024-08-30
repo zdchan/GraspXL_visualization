@@ -1,0 +1,15 @@
+__pycache__
+
+/condor_logs
+/data/body_models/mano/*
+/logs
+/notebooks
+/pipelines
+/saved_models
+/body_models/
+/downloads/
+/outputs/
+*.ini
+/outputs
+*.zip
+
