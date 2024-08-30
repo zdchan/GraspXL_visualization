@@ -1,4 +1,4 @@
-name: arctic_viewer
+name: graspxl_viewer
 channels:
   - pytorch3d
   - pytorch
