@@ -50,9 +50,14 @@ data/body_models/mano
    ├── SMPLH_female.pkl
    └── SMPLH_male.pkl
 ```
-
-
-
+You can run the grasping visualization scripts for MANO, Allegro, or Shadow Hand in the [./scripts](./scripts) folder. For example, if you want to visualize a MANO grasping sequence, run
+```
+$ python ./scripts/visualizer_mano.py
+```
+We use a wine glass as an example. If you want to visualize another object or another sequence, put the object mesh (.obj file) in [./data/GraspXL/object_mesh/](./data/GraspXL/object_mesh/) and the sequence in [./data/GraspXL/recorded/](./data/GraspXL/recorded/), and run
+```
+$ python ./scripts/visualizer_mano.py --seq_name <sequence name> --object_name <object name>
+```
 
 
 ### Citation
