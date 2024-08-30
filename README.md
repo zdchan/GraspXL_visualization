@@ -6,7 +6,7 @@
 
 This is a repository for the visualization of GraspXL Dataset. The repository is based on [arctic-digit](https://github.com/zc-alexfan/arctic-digit), which is used for the visualization of [ARCTIC](https://arctic.is.tue.mpg.de/) dataset.
 
-Our dataset contains diverse grasping motions of 500k+ objects from [Objaverse](https://objaverse.allenai.org/) with different dexterous hands:
+Our dataset contains diverse grasping motions of 500k+ objects with different dexterous hands:
 
 <p align="center">
     <img src="./docs/large.gif" alt="Image" width="80%"/>
