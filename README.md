@@ -63,7 +63,7 @@ $ python ./scripts/visualizer_mano.py --seq_name <sequence name> --obj_name <obj
 
 ### Citation
 
-```
+```bibtex
 @inProceedings{zhang2024graspxl,
   title={{GraspXL}: Generating Grasping Motions for Diverse Objects at Scale},
   author={Zhang, Hui and Christen, Sammy and Fan, Zicong and Hilliges, Otmar and Song, Jie},
