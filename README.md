@@ -58,7 +58,7 @@ Download MANO pickle data-structures
 - Visit [MANO website](http://mano.is.tue.mpg.de/)
 - Create an account by clicking *Sign Up* and provide your information
 - Download Models and Code (the downloaded file should have the format `mano_v*_*.zip`). Note that all code and data from this download falls under the [MANO license](http://mano.is.tue.mpg.de/license).
-- unzip and copy the contents to the `data/body_models/mano`/ folder
+- unzip and copy the contents to the `data/body_models/mano` folder
 - Your `data/body_models/mano` folder structure should look like this:
 
 ```
