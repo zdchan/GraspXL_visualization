@@ -1,23 +1,19 @@
 import argparse
 import sys
 
-from easydict import EasyDict
-
 sys.path = ["."] + sys.path
 import os.path as op
-import numpy as np
-from loguru import logger
 
-from common.viewer import ARCTICViewer, ViewerData
-from common.xdict import xdict
 import numpy as np
 import torch
-
 import trimesh
-import common.viewer as viewer_utils
-
+from easydict import EasyDict
+from loguru import logger
 from urdfpy import URDF
-import pyrender
+
+import common.viewer as viewer_utils
+from common.viewer import ARCTICViewer, ViewerData
+from common.xdict import xdict
 
 def axisangle2mat(
         rot_vecs,
