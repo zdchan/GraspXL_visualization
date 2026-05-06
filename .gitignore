@@ -6,10 +6,8 @@ __pycache__
 /notebooks
 /pipelines
 /saved_models
-/body_models/
 /downloads/
 /outputs/
 *.ini
 /outputs
 *.zip
-
