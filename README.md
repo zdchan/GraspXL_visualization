@@ -62,6 +62,29 @@ We use a wine glass as an example. If you want to visualize another object or an
 $ python ./scripts/visualizer_mano.py --seq_name <sequence name> --obj_name <object name>
 ```
 
+The repository also provides visualizers for the new tabletop setting of MANO, Allegro, and Sharpa hands. The tabletop scripts use the GraspXL tabletop data layout:
+
+```
+data/GraspXL/recorded/<hand_model>_tabletop/<object_dict>/<object_name>/<hand_model>_<num_id>.npy
+data/GraspXL/object_mesh/<object_dict>/<object_name>/<object_name>.obj
+```
+
+To visualize a random tabletop sequence, run one of:
+
+```
+$ python ./scripts/visualizer_mano_table_top.py
+$ python ./scripts/visualizer_allegro_table_top.py
+$ python ./scripts/visualizer_sharpa_table_top.py
+```
+
+To visualize a specific tabletop sequence, specify the collection, object dictionary, object name, and sequence id:
+
+```
+$ python ./scripts/visualizer_mano_table_top.py --collection mano_tabletop --object_dict large --object_name <object name> --num_id <sequence id>
+```
+
+Use `--headless` to render without opening the interactive viewer, and use `--no_table` to disable the 1m x 1m x 0.05m tabletop mesh.
+
 
 ### Citation
 
