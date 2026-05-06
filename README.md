@@ -1,6 +1,25 @@
 # GraspXL: Generating Grasping Motions for Diverse Objects at Scale
 
-## [Paper](https://arxiv.org/pdf/2403.19649.pdf) | [Project Page](https://eth-ait.github.io/graspxl/) | [Dataset](https://huggingface.co/datasets/ethHuiZhang/GraspXL) | [Video](https://youtu.be/0-dRbxmX2PI)
+<p align="center">
+  <a href="https://arxiv.org/pdf/2403.19649.pdf">
+    <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white">
+  </a>
+  <a href="https://eth-ait.github.io/graspxl/">
+    <img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-Website-2f80ed?style=for-the-badge&logo=googlechrome&logoColor=white">
+  </a>
+  <a href="https://youtu.be/0-dRbxmX2PI">
+    <img alt="Video" src="https://img.shields.io/badge/Video-YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white">
+  </a>
+  <a href="https://huggingface.co/datasets/ethHuiZhang/GraspXL">
+    <img alt="Dataset" src="https://img.shields.io/badge/Dataset-Hugging%20Face-ffcc4d?style=for-the-badge&logo=huggingface&logoColor=black">
+  </a>
+  <a href="https://github.com/zdchan/GraspXL">
+    <img alt="Code" src="https://img.shields.io/badge/Code-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://github.com/zdchan/GraspXL_visualization">
+    <img alt="Visualizer" src="https://img.shields.io/badge/Visualizer-GitHub-6f42c1?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 
 <p align="center">
     <img src="./docs/tease_more.jpg" alt="Image" width="100%"/>
