@@ -1,6 +1,6 @@
 # GraspXL: Generating Grasping Motions for Diverse Objects at Scale
 
-## [Paper](https://arxiv.org/pdf/2403.19649.pdf) | [Project Page](https://eth-ait.github.io/graspxl/) | [Video](https://youtu.be/0-dRbxmX2PI)
+## [Paper](https://arxiv.org/pdf/2403.19649.pdf) | [Project Page](https://eth-ait.github.io/graspxl/) | [Dataset](https://huggingface.co/datasets/ethHuiZhang/GraspXL) | [Video](https://youtu.be/0-dRbxmX2PI)
 
 <p align="center">
     <img src="./docs/tease_more.jpg" alt="Image" width="100%"/>
@@ -71,6 +71,17 @@ $ python ./scripts/visualizer_mano.py --seq_name <sequence name> --obj_name <obj
   author={Zhang, Hui and Christen, Sammy and Fan, Zicong and Hilliges, Otmar and Song, Jie},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2024}
+}
+```
+
+Our tabletop setting uses part of the method from [RobustDexGrasp](https://zdchan.github.io/Robust_DexGrasp/). If you find this setting useful, please consider citing:
+
+```bibtex
+@inproceedings{zhang2025RobustDexGrasp,
+  title={{RobustDexGrasp}: Robust Dexterous Grasping of General Objects},
+  author={Zhang, Hui and Wu, Zijian and Huang, Linyi and Christen, Sammy and Song, Jie},
+  booktitle={Conference on Robot Learning (CoRL)},
+  year={2025}
 }
 ```
 
